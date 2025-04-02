@@ -1,2 +1,5 @@
 #!/bin/bash
-echo "Current Date and Time: $(date)" >> log.txt
+#!/bin/bash
+$count=0
+(($count++))
+echo -e "Current Date and Time: $(date)\nUsername: JaimeDyIII\n$(count)" >> log.txt
